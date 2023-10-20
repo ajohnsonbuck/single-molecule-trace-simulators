@@ -4,9 +4,13 @@
 % fluorescence counts, frames, and noise level, and simulates SiMREPS traces
 % using a kinetic Monte Carlo Approach.
 %
+% For more on SiMREPS (single-molecule recognition by equilibrium Poisson sampling),
+% see Johnson-Buck & Su et al. Nature Biotechnology (2015) 33(7):730-2.
+% doi: 10.1038/nbt.3246.
+%
 % Alex Johnson-Buck, 3/19/2014
 %
-
+%
 % *******************Parameters to set*************************
 
 noise_level = 0.15; % Noise level (currently a constant multiple of totcounts, and independent of channel)
